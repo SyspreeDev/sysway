@@ -1,11 +1,19 @@
 @import "tailwindcss";
 
+html {
+  scroll-padding-top: 80px; /* match your navbar height */
+}
+/* Optional: your own styles below */
+body {
+  font-family: sans-serif;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
+:root inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
