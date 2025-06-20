@@ -131,13 +131,16 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="border-t border-[#FFFFFF] mt-8 pt-4 text-xs flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto relative z-10">
-        <p>© Sysway Trading & Engineering Pte Ltd . All rights reserved.</p>
-        <p>
-          Designed & Developed by Syspree Digital with{' '}
-          <Image src="/images/heart.png" alt="Heart" width={15} height={18} className="inline-block" />
-        </p>
-      </div>
+        <div className="border-t border-[#FFFFFF] mt-8 pt-4 text-xs flex flex-col md:flex-row justify-between md:items-center items-start max-w-7xl mx-auto text-white">
+          <p className="mb-2 md:mb-0">
+            © Sysway Trading & Engineering Pte Ltd. All rights reserved.
+          </p>
+          <p>
+            Designed & Developed by Syspree Digital with{' '}
+            <Image src="/images/heart.png" alt="Heart" width={15} height={18} className="inline-block" />
+          </p>
+        </div>
+
     </footer>
   );
 };

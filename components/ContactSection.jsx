@@ -1,5 +1,5 @@
-'use client' 
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
 const ContactSection = () => {
   const [showModal, setShowModal] = useState(false);
@@ -13,18 +13,21 @@ const ContactSection = () => {
             <p className="text-2xl font-semibold mb-1">
               We're Here to Help! Reach Out for
             </p>
-            <p className="text-2xl font-semibold text-green-700">
-              Assistance <span className="text-black">or</span> Inquiries Anytime<span className="text-black">.</span>
+            <p className="text-2xl font-semibold text-[#026D37]">
+              Assistance <span className="text-black">or</span> Inquiries
+              Anytime<span className="text-black">.</span>
             </p>
           </div>
 
           {/* Text Block Mobile */}
           <div className="text-left md:hidden">
             <p className="text-2xl font-semibold mb-1">
-              We're Here to Help! Reach Out for <span className="text-green-700">Assistance</span>
+              We're Here to Help! Reach Out for{" "}
+              <span className="text-[#026D37]">Assistance</span>
             </p>
-            <p className="text-2xl font-semibold text-green-700">
-              <span className="text-black">or</span> Inquiries Anytime<span className="text-black">.</span>
+            <p className="text-2xl font-semibold text-[#026D37]">
+              <span className="text-black">or</span> Inquiries Anytime
+              <span className="text-black">.</span>
             </p>
           </div>
 

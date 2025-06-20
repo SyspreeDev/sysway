@@ -1,14 +1,14 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const galleryImages = [
-  '/images/gallery1.png',
-  '/images/gallery2.png',
-  '/images/gallery3.png',
-  '/images/gallery4.png',
-  '/images/gallery5.png',
-  '/images/gallery6.png',
-  '/images/gallery7.png',
-  '/images/gallery8.png',
+  "/images/gallery1.png",
+  "/images/gallery2.png",
+  "/images/gallery3.png",
+  "/images/gallery4.png",
+  "/images/gallery5.png",
+  "/images/gallery6.png",
+  "/images/gallery7.png",
+  "/images/gallery8.png",
 ];
 
 const GallerySection = () => {
@@ -22,9 +22,9 @@ const GallerySection = () => {
         {/* Header Row */}
         <div className="flex flex-col md:flex-row items-start justify-between mb-8">
           <h2 className="text-3xl font-semibold max-w-xl leading-tight">
-            <span className="text-green-700 font-bold">Gallery of Images</span>{' '}
+            <span className="text-[#026D37] font-bold">Gallery of Images</span>{" "}
             Showcasing Our <br />
-            <span className="text-green-700 font-bold">Product Range</span>
+            <span className="text-[#026D37] font-bold">Product Range</span>
           </h2>
           {/* <a
             href="#"
@@ -38,13 +38,13 @@ const GallerySection = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 auto-rows-[200px]">
           {galleryImages.map((src, index) => {
             // Custom sizing for image 1 and 8
-            let customClass = '';
+            let customClass = "";
             if (index === 0) {
               // Image 1 taller
-              customClass = 'col-span-1';
+              customClass = "col-span-1";
             } else if (index === 7) {
               // Image 8 wider
-              customClass = 'row-span-1';
+              customClass = "row-span-1";
             }
 
             return (

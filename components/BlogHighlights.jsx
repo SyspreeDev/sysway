@@ -1,17 +1,19 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const blogPosts = [
   {
-    title: 'Revolutionizing Carton Packaging with Automatic Adhesive Dispenser Machines',
-    date: 'Dec 4',
-    image: '/images/blog1.png',
-    link: '#',
+    title:
+      "Revolutionizing Carton Packaging with Automatic Adhesive Dispenser Machines",
+    date: "Dec 4",
+    image: "/images/blog1.png",
+    link: "#",
   },
   {
-    title: 'Enhance your packaging efficiency with the perfect glue dispenser solution',
-    date: 'Dec 8',
-    image: '/images/blog2.png',
-    link: '#',
+    title:
+      "Enhance your packaging efficiency with the perfect glue dispenser solution",
+    date: "Dec 8",
+    image: "/images/blog2.png",
+    link: "#",
   },
 ];
 
@@ -19,16 +21,19 @@ const BlogHighlights = () => {
   return (
     <section className="py-12 px-4 md:text-center text-left">
       {/* Section Heading */}
-      <h2 className="text-3xl font-semibold mb-10 ml-4 text-green-700 ">
-        Insights and Updates 
+      <h2 className="text-3xl font-semibold mb-10 ml-4 text-[#026D37] ">
+        Insights and Updates
         <span className="text-black text-left"> from </span>
-        <span className="text-green-700 font-bold">Our Blog</span>
+        <span className="text-[#026D37] font-bold">Our Blog</span>
       </h2>
 
       {/* Blog Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[84rem] mx-auto px-4">
         {blogPosts.map((post, index) => (
-          <div key={index} className="bg-[#D6F5E3] rounded-lg overflow-hidden shadow-sm text-left relative">
+          <div
+            key={index}
+            className="bg-[#D6F5E3] rounded-lg overflow-hidden shadow-sm text-left relative"
+          >
             <div className="relative">
               <Image
                 src={post.image}
@@ -59,7 +64,7 @@ const BlogHighlights = () => {
               <h3 className="text-md font-semibold mb-4">{post.title}</h3>
               <a
                 href={post.link}
-                className="text-green-700 font-semibold text-sm flex items-center gap-1"
+                className="text-[#026D37] font-semibold text-sm flex items-center gap-1"
               >
                 Continue Reading
                 <Image
