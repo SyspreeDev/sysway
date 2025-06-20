@@ -68,7 +68,7 @@ const ProductShowcase = () => {
             </div>
 
             {/* Left arrow for first card */}
-            {index === 0 && (
+            {/* {index === 0 && (
               <div className="hidden md:flex absolute left-[-3px] top-1/3 -translate-y-1/2 z-50 p-1 rounded-full">
                 <Image
                   src="/images/arrow2.png"
@@ -77,10 +77,10 @@ const ProductShowcase = () => {
                   height={29}
                 />
               </div>
-            )}
+            )} */}
 
             {/* Right arrow for last card */}
-            {index === products.length - 1 && (
+            {/* {index === products.length - 1 && (
               <div className="hidden md:flex absolute right-[-3px] top-1/3 -translate-y-1/2 z-50 p-1">
                 <Image
                   src="/images/arrow.png"
@@ -89,7 +89,7 @@ const ProductShowcase = () => {
                   height={29}
                 />
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>

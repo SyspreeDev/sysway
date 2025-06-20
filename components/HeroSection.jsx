@@ -21,7 +21,7 @@ export default function HeroSection() {
 
           {/* Foreground Text Content */}
           <div className="relative z-20">
-            <h1 className="font-jakarta text-[38px] leading-[54px] text-gray-900">
+            <h1 className="text-[32px] leading-[40px] md:text-[38px] md:leading-[54px] text-gray-900">
               Transforming Industries with <br />
               <span className="text-[#026D37] font-semibold">State-of-the-Art Machinery</span><br />
               and <span className="text-[#026D37] font-semibold">Expert Engineering Solutions.</span>

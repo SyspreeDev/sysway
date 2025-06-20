@@ -26,12 +26,12 @@ const GallerySection = () => {
             Showcasing Our <br />
             <span className="text-green-700 font-bold">Product Range</span>
           </h2>
-          <a
+          {/* <a
             href="#"
             className="mt-4 md:mt-0 inline-block border border-black rounded-md px-5 py-2 text-sm font-semibold hover:bg-black hover:text-white transition"
           >
             Visit Gallery
-          </a>
+          </a> */}
         </div>
 
         {/* Image Grid */}

@@ -17,14 +17,16 @@ const blogPosts = [
 
 const BlogHighlights = () => {
   return (
-    <section className="py-12 px-4 text-center">
+    <section className="py-12 px-4 md:text-center text-left">
       {/* Section Heading */}
-      <h2 className="text-3xl font-semibold mb-10">
-        Insights and Updates from <span className="text-green-700 font-bold">Our Blog</span>
+      <h2 className="text-3xl font-semibold mb-10 ml-4 text-green-700 ">
+        Insights and Updates 
+        <span className="text-black text-left"> from </span>
+        <span className="text-green-700 font-bold">Our Blog</span>
       </h2>
 
       {/* Blog Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[84rem] mx-auto px-4">
         {blogPosts.map((post, index) => (
           <div key={index} className="bg-[#D6F5E3] rounded-lg overflow-hidden shadow-sm text-left relative">
             <div className="relative">

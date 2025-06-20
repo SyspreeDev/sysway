@@ -15,7 +15,7 @@ const BestSellerCard = () => {
       </div>
 
       {/* Main White Card */}
-      <div className="max-w-6xl mx-auto bg-white rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+      <div className="max-w-7xl mx-auto bg-white rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
 
         {/* Ribbon Row: top-left, responsive size */}
         <div className="absolute top-0 left-0 flex items-center ml-4 mt-0">
@@ -48,7 +48,7 @@ const BestSellerCard = () => {
         </div>
 
         {/* Product Image */}
-        <div className="w-full md:w-[366px] flex justify-center">
+        <div className="w-full md:w-[600px] flex justify-center">
           <Image
             src="/images/pump.png"
             alt="Centrifugal Process Pump"
