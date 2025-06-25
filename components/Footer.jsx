@@ -108,12 +108,12 @@ const Footer = () => {
                 <Image src="/images/phone.png" alt="Phone" width={16} height={16} />
                 Mobile Number
               </div>
-              <div className="flex items-center gap-2 text-sm mb-4">+65 9338 8219</div>
+              <div className="flex items-center gap-2 text-sm mb-4">+65 9383 8219</div>
               <div className="flex items-center text-[#D0FFE7] gap-2 text-sm mb-2">
                 <Image src="/images/email.png" alt="Email" width={16} height={16} />
                 Email Address
               </div>
-              <div className="flex items-center gap-2 text-sm mb-1">yawsongchan@sysway.com.sg</div>
+              <div className="flex items-center gap-2 text-sm mb-1">yawseongchan@sysway.com.sg</div>
               <div className="flex items-center gap-2 text-sm mb-4">max@sysway.com.sg</div>
               <div className="flex items-center gap-2 text-sm text-[#D0FFE7]">
                 <Image src="/images/social-media.png" alt="Social" width={16} height={16} />
