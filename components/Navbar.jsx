@@ -63,7 +63,7 @@ export default function Navbar() {
           <li><Link href="#products">Products</Link></li>
           <li><Link href="#projects">Projects</Link></li>
           <li><Link href="#gallery">Gallery</Link></li>
-          <li><Link href="#blogs">Blogs</Link></li>
+          {/* <li><Link href="#blogs">Blogs</Link></li> */}
         </ul>
 
         <div className="hidden md:flex items-center">
@@ -101,7 +101,7 @@ export default function Navbar() {
             <Link href="#products" onClick={() => setIsOpen(false)}>Products</Link>
             <Link href="#projects" onClick={() => setIsOpen(false)}>Projects</Link>
             <Link href="#gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
-            <Link href="#blogs" onClick={() => setIsOpen(false)}>Blogs</Link>
+            {/* <Link href="#blogs" onClick={() => setIsOpen(false)}>Blogs</Link> */}
             <button
               onClick={() => {
                 setShowContactModal(true);

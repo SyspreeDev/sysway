@@ -1,34 +1,23 @@
 @import "tailwindcss";
 
+/* Navbar scroll padding */
 html {
-  scroll-padding-top: 80px; /* match your navbar height */
-}
-/* Optional: your own styles below */
-body {
-  font-family: sans-serif;
+  scroll-padding-top: 80px;
 }
 
+/* Default light theme (no dark mode support) */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-:root inline {
+  --background: #ffffff; /* White background */
+  --foreground: #171717; /* Dark text color */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Global body styles */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }

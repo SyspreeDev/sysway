@@ -29,13 +29,13 @@ export default function CompanyHistory() {
           <p className="text-gray-700 mt-4 leading-relaxed">
             Sysway Trading & Engineering is a locally established company in the year 1999, with a competent team of highly skilled professional engineers, technicians and craftsmen in each respective field. Our managers are experienced and qualified people who have been in this trade for various years. We specialize in the engineering, manufacturing and installation of oil & gas equipment.
           </p>
-          <Link href="/about">
+          {/* <Link href="/about">
             <span className="inline-flex items-center gap-2 mt-6 text-[#026D37] font-semibold group">
                 <span className="border-b-2 border-[#026D37]">Continue Reading</span>
                 <span><img src="/images/arrow-up.png" alt="arrow" width={24} height={24} /></span>
             </span>
 
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

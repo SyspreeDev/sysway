@@ -39,9 +39,9 @@ export default function HomePage() {
         <GlobalBanner />
       </section>
 
-      <section id="blogs">
+      {/* <section id="blogs">
         <BlogHighlights />
-      </section>
+      </section> */}
 
       <section id="gallery">
         <GallerySection />

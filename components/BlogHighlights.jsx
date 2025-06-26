@@ -62,7 +62,7 @@ const BlogHighlights = () => {
             {/* Text Content */}
             <div className="p-4">
               <h3 className="text-md font-semibold mb-4">{post.title}</h3>
-              <a
+              {/* <a
                 href={post.link}
                 className="text-[#026D37] font-semibold text-sm flex items-center gap-1"
               >
@@ -73,7 +73,7 @@ const BlogHighlights = () => {
                   width={24}
                   height={24}
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         ))}

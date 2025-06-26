@@ -58,7 +58,7 @@ const ProductShowcase = () => {
               <h3 className="text-base font-semibold text-black mb-2">
                 {product.title}
               </h3>
-              <a
+              {/* <a
                 href={product.link}
                 className="text-[#026D37] font-semibold inline-flex items-center gap-1 hover:underline"
               >
@@ -69,7 +69,7 @@ const ProductShowcase = () => {
                   width={29}
                   height={29}
                 />
-              </a>
+              </a> */}
             </div>
 
             {/* Left arrow for first card */}

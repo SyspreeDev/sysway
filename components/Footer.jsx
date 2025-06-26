@@ -115,7 +115,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2 text-sm mb-1">yawseongchan@sysway.com.sg</div>
               <div className="flex items-center gap-2 text-sm mb-4">max@sysway.com.sg</div>
-              <div className="flex items-center gap-2 text-sm text-[#D0FFE7]">
+              {/* <div className="flex items-center gap-2 text-sm text-[#D0FFE7]">
                 <Image src="/images/social-media.png" alt="Social" width={16} height={16} />
                 Social Media
               </div>
@@ -124,7 +124,7 @@ const Footer = () => {
                 <Image src="/images/instagram.png" alt="Instagram" width={15} height={12} />
                 <Image src="/images/x.png" alt="LinkedIn" width={15} height={10} />
                 <Image src="/images/youtube.png" alt="YouTube" width={18} height={10} />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
