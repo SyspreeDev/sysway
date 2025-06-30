@@ -38,9 +38,12 @@ export default function ThankYouPage() {
             </div>
 
             {/* Email */}
-            <div className="flex items-right justify-right gap-2 mb-2 text-[#026D37]">
-              <FaEnvelope className="w-5 h-5" />
-              <span>yawseongchan@sysway.com.sg</span>
+            <div className="flex flex-wrap items-center justify-start  gap-2 mb-2 text-[#026D37] break-words">
+              <FaEnvelope className="w-5 h-5 flex-shrink-0" />
+              <span className="break-words max-w-full text-sm md:text-base">
+                yawseongchan
+                <span className="block md:inline">@sysway.com.sg</span>
+              </span>
             </div>
             <div className="flex items-right justify-right gap-2 text-[#026D37]">
               <FaEnvelope className="w-5 h-5" />
