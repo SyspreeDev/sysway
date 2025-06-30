@@ -15,7 +15,7 @@ export const metadata = {
   title: "Sysway Trading & Engineering",
   description: "Transforming Industries with State-of-the-Art Machinery and Expert Engineering Solutions.",
   icons: {
-    icon: "/images/logo.png",
+    icon: "/images/favicon.png",
   },
 };
 

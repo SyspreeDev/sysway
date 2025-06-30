@@ -48,10 +48,10 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/nav-logo.png"
               alt="Sysway Logo"
-              width={120}
-              height={60}
+              width={70}
+              height={70}
               priority
               className="object-contain"
             />

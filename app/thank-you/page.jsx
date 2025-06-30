@@ -1,10 +1,5 @@
 'use client';
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaXTwitter,
-  FaYoutube,
-} from 'react-icons/fa6';
+import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { FaCheckCircle } from 'react-icons/fa';
 
 export default function ThankYouPage() {
@@ -27,54 +22,35 @@ export default function ThankYouPage() {
         {/* Thank You Heading */}
         <h1 className="text-3xl font-bold text-[#026D37] mb-2">Thank you!</h1>
         <p className="text-gray-700 mb-10 max-w-xl mx-auto">
-          We’ve sent your message successfully. You can find more information on our website and
-          social pages.
+          We’ve sent your message successfully. You can reach us through the details below or visit our website.
         </p>
 
         {/* Two Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
-          {/* Connect with Us */}
-          <div className="bg-[#FFFFFF] rounded-md p-15 shadow-sm">
-            <h3 className="text-lg font-semibold mb-8">Connect With Us</h3>
-            <div className="flex justify-center gap-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#026D37] text-white flex items-center justify-center hover:bg-[#02572d] transition"
-              >
-                <FaFacebookF className="w-5 h-5" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#026D37] text-white flex items-center justify-center hover:bg-[#02572d] transition"
-              >
-                <FaInstagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://x.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#026D37] text-white flex items-center justify-center hover:bg-[#02572d] transition"
-              >
-                <FaXTwitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[#026D37] text-white flex items-center justify-center hover:bg-[#02572d] transition"
-              >
-                <FaYoutube className="w-5 h-5" />
-              </a>
+          {/* Contact Us */}
+          <div className="bg-[#FFFFFF] rounded-md p-8 shadow-sm">
+            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+
+            {/* Phone */}
+            <div className="flex items-right justify-right gap-2 mb-4 text-[#026D37]">
+              <FaPhoneAlt className="w-5 h-5" />
+              <span>+65 9383 8219</span>
+            </div>
+
+            {/* Email */}
+            <div className="flex items-right justify-right gap-2 mb-2 text-[#026D37]">
+              <FaEnvelope className="w-5 h-5" />
+              <span>yawseongchan@sysway.com.sg</span>
+            </div>
+            <div className="flex items-right justify-right gap-2 text-[#026D37]">
+              <FaEnvelope className="w-5 h-5" />
+              <span>max@sysway.com.sg</span>
             </div>
           </div>
 
           {/* Visit Website */}
-          <div className="bg-[#FFFFFF] rounded-md p-15 shadow-sm">
-            <h3 className="text-lg font-semibold mb-8">Visit Our Website</h3>
+          <div className="bg-[#FFFFFF] rounded-md p-8 shadow-sm">
+            <h3 className="text-lg font-semibold mb-6">Visit Our Website</h3>
             <a
               href="/"
               className="inline-block bg-[#026D37] text-white px-6 py-2 rounded-md font-medium hover:bg-[#02572d] transition"
