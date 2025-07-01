@@ -47,7 +47,10 @@ export default function ThankYouPage() {
             </div>
             <div className="flex items-right justify-right gap-2 text-[#026D37]">
               <FaEnvelope className="w-5 h-5" />
-              <span>max@sysway.com.sg</span>
+              <span className="max-w-full text-sm md:text-base">
+                max
+                <span className="md:inline">@sysway.com.sg</span>
+              </span>
             </div>
           </div>
 
