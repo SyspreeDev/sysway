@@ -47,9 +47,9 @@ export default function HomePage() {
         <GallerySection />
       </section>
 
-      <section id="testimonials">
+      {/* <section id="testimonials">
         <TestimonialsSection />
-      </section>
+      </section> */}
 
       <section id="contact">
         <ContactSection />
