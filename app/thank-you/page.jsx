@@ -20,7 +20,7 @@ export default function ThankYouPage() {
         </div>
 
         {/* Thank You Heading */}
-        <h1 className="text-3xl font-bold text-[#026D37] mb-2">Thank you!</h1>
+        <h1 className="text-3xl font-bold text-[#026D37] mb-2">Thank you!!</h1>
         <p className="text-gray-700 mb-10 max-w-xl mx-auto">
           We’ve sent your message successfully. You can reach us through the details below or visit our website.
         </p>
